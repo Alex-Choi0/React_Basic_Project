@@ -4,7 +4,7 @@ const CategoryItem = ({ category }) => {
   const { imageUrl, title, id } = category
   console.log("id : ", id)
   return (
-    <div className="category-container" key={id}>
+    <div className="category-container">
       <div
         className="background-image"
         style={{ backgroundImage: `url(${imageUrl})` }}
